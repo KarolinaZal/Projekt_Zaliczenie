@@ -81,7 +81,6 @@ public class ShopNewAddressesCreate {
         Assertions.assertEquals(expectedAddress, cleanedAddressText, "Adres nie został dodany poprawnie!");
 
     }
-
     @And("I'm delete created address")
     public void iMDeleteCreatedAddress() {
         YourAddressesPage yourAddressesPage = new YourAddressesPage(driver);
